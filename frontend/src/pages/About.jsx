@@ -4,49 +4,54 @@ import { useAuth } from "../context/AuthProvider";
 function About() {
   const { profile } = useAuth();
   console.log(profile);
+
   return (
     <div className="container mx-auto my-12 p-4 space-y-9">
       <h1 className="text-2xl font-bold mb-6">About</h1>
       <p>
-        This is{" "}
+        Hello! I'm{" "}
         <strong className="text-blue-800 font-semibold hover:scale-105 duration-500">
-          Aman
+          Satish Naik
         </strong>
-        , an enthusiastic Computer Science and Business Systems student with a strong foundation in full-stack development. Aman is passionate about building impactful applications that enhance user experience and solve real-world problems.
+        , a passionate Computer Science Engineering student who loves building impactful solutions that solve real-world problems. I believe in continuous learning, collaboration, and using technology to make lives easier.
       </p>
 
       <h2 className="font-semibold text-blue-800 text-xl">Technical Expertise:</h2>
       <p>
-        <strong>Languages & Tools:</strong> Proficient in C, C++, HTML, CSS, JavaScript, SQL, and Git. <br />
-        <strong>Frameworks & Libraries:</strong> Experienced with React, Next.js, Django, and React Toolkit. <br />
-        <strong>Projects:</strong> Skilled in developing APIs, working with AWS, and designing UI/UX using Figma.
+        <strong>Languages & Tools:</strong> C, C++, Python, JavaScript, SQL, Git. <br />
+        <strong>Frameworks & Libraries:</strong> React, Next.js, Express, Django, Node.js, MongoDB, Tailwind CSS. <br />
+        <strong>Other Skills:</strong> REST APIs, Firebase, Machine Learning basics, UI/UX Design (Figma), Cloudflare, Render, Vercel.
       </p>
 
-      <h2 className="font-semibold text-blue-800 text-xl">Professional Highlights:</h2>
+      <h2 className="font-semibold text-blue-800 text-xl">Projects & Contributions:</h2>
       <p>
-        Developed <strong>Campus-Buzz</strong>, a full-stack platform to enhance event visibility for student clubs at JSSSTU. <br />
-        Built the <strong>AMA App</strong> using Next.js and TypeScript, enabling interactive Q&A with authentication and voting features. <br />
-        Created an <strong>Inventory Management System</strong> with Django and secure access control. <br />
-        Active member and event coordinator in the CSI Club at JSSSTU, helping organize various college-level events. <br />
-        Represented his college in inter-college fashion competitions as a model for the <strong>Pehchaan</strong> club.
+        Built <strong>Next Bite</strong>, a real-time food tracking system for hostels & PGs to manage daily food consumption and avoid wastage. <br />
+        Created <strong>MedCare</strong>, a MERN-based healthcare app that allows users to book lab tests and uses ML to analyze reports and provide health tips. <br />
+        Developed <br />
       </p>
 
-      <span>
-        Aman is driven by curiosity and creativity. He enjoys building things that are not only functional but also engaging. Whether it's through code, coordination, or creativity, he thrives in collaborative and fast-paced environments.
-      </span>
-
-      <h2 className="font-semibold text-blue-800 text-xl">Leadership & Recognition:</h2>
+      <h2 className="font-semibold text-blue-800 text-xl">Leadership & Involvement:</h2>
       <p>
-        Event Team Student Coordinator for CSI JSSSTU, playing a pivotal role in event planning and execution. <br />
-        Winner of various coding competitions hosted by CSI and LCC. <br />
-        Champion of Tuvvie’s Inter-College Fashion Competition as a key contributor in the Pehchaan team.
+        Technical Coordinator at LCC, leading workshops and technical initiatives. <br />
+        Organized national-level events like <strong>HackElite</strong> and participated in FOSS Camp, FOSS Nytes, and more. <br />
+        Represented projects during Open Day, NAAC visits, and received appreciation from HOD and VC.
       </p>
 
-      <h2 className="font-semibold text-blue-800 text-xl">
-        Personal Interests and Inspiration:
-      </h2>
+      <h2 className="font-semibold text-blue-800 text-xl">Achievements:</h2>
       <p>
-        Aman’s interests go beyond code—he is also drawn to fashion, creativity, and event organizing. His ability to blend technical skills with artistic expression makes him a unique and versatile individual who’s always looking to grow, contribute, and inspire.
+        Secured 1st rank in SSLC with 96.96% and 5th rank in PU with 94.33%. <br />
+        Awarded the <strong>Rajya Puraskar</strong> in Scouts & Guides and completed NCC 'B' Certificate. <br />
+        Winner of multiple hackathons and coding contests hosted by CSI and LCC.
+      </p>
+
+      <h2 className="font-semibold text-blue-800 text-xl">What Drives Me:</h2>
+      <p>
+        I’m curious by nature and enjoy solving problems—whether it's through code, collaboration, or creativity. I thrive in fast-paced environments, and I’m always looking for opportunities to grow, contribute, and build things that matter.
+      </p>
+
+      <h2 className="font-semibold text-blue-800 text-xl">Interests Beyond Tech:</h2>
+      <p>
+        Beyond development, I love organizing events, guiding students, and engaging in community building. I enjoy exploring new ideas, from fashion and public speaking to tech for social impact.
       </p>
     </div>
   );
